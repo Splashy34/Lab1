@@ -35,7 +35,7 @@ List::List()
 // деструктор списка
 List::~List()
 {
-	while (size > 0); // работает, пока список не опустел
+	while (size > 0) // работает, пока список не опустел
 	{
 		Node* temp = head;
 		head = head->next;
